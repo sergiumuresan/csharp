@@ -10,6 +10,8 @@ namespace csharp
             Console.WriteLine("PrimeNumbers");
 
             PrimeNumbers.DoWork();
+
+            Console.ReadKey();
         }
     }
 }
