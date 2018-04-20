@@ -7,5 +7,9 @@
 
   <ItemGroup>
     <Folder Include="Session1\" />
+    <Folder Include="Session2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Session1\PrimeNumbers %28copy%29.cs" />
   </ItemGroup>
 </Project>
