@@ -1,4 +1,5 @@
-﻿using csharp.Session1;
+﻿using csharp.Session3;
+using csharp.Session5;
 using System;
  
 namespace csharp
@@ -7,27 +8,8 @@ namespace csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("PrimeNumbers");
-           
-            PrimeNumbers.DoWork();
-
-            Console.WriteLine("\nPrimeNumbersTask");
-
-            PrimeNumbersTask.DoWork();
-
-            Console.WriteLine("\nPrimeNumbersAsync");
-
-            PrimeNumbersAsync.DoWork();
-
-            Console.WriteLine("\nPrimeNumbersParallel");
-
-            PrimeNumbersParallel.DoWork();
-
-            Console.WriteLine("\nPrimeNumbersThreadPool");
-
-            PrimeNumbersThreadPool.DoWork();
-
-            Console.ReadKey();
+            AESExample.EncryptSomeText();
+            RSAExample.EncryptSomeText();
         }
     }
 }
